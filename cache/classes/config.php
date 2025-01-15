@@ -111,7 +111,8 @@ class config {
             }
         }
         // Return the default location within dataroot.
-        return $CFG->dataroot . '/muc/config.php';
+        $CFG->dataroot = '/var/moodledata';
+
     }
 
     /**
